@@ -24,7 +24,8 @@ public class MyWorld extends World
         
         scoreLabel = new Label(0, 80);
         addObject(scoreLabel, 50, 50);
-        
+        scoreLabel.setFillColor(Color.CYAN);
+        scoreLabel.setLineColor(Color.BLACK);
         createApple();
     }
     public void gameOver()
