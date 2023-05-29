@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class InstructionScreen extends World
 {
     Label instructionLabel = new Label("The Elephant", 60);
-    Label instructionLabel2 = new Label("Use <-- and --> to Move", 30);
+    Label instructionLabel2 = new Label("Use \u2190 and \u2192 to Move", 30);
     Label instructionLabel3 = new Label("Press <Enter> to Start", 40);
     /**
      * Constructor for objects of class InstructionScreen.
