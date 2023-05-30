@@ -15,5 +15,7 @@ This particular repository is the starting template for the Hungry Elephant tuto
 
 Personal Changes made:
 Made unique title screen that by clicking <space>; brings up the instructions screen which by clicking <enter>; starts the game
-Made it so that the Elephant also speeds up every 5 levels along with the apple so that the game is made possible among higher levels
-Changed various font colors on title screen and instruction screen for style
+
+  Made it so that the Elephant also speeds up every 5 levels along with the apple so that the game is made possible among higher levels
+
+  Changed various font colors on title screen and instruction screen for style
