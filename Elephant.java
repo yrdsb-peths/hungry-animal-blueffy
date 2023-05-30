@@ -14,7 +14,6 @@ public class Elephant extends Actor
     
     String facing = "right";
     SimpleTimer animationTimer = new SimpleTimer();
-    int speed = 2;
     public Elephant()
     {
         for (int i = 0; i < idleRight.length; i++)
