@@ -14,7 +14,7 @@ public class Elephant extends Actor
     
     String facing = "right";
     SimpleTimer animationTimer = new SimpleTimer();
-    
+    int speed = 2;
     public Elephant()
     {
         for (int i = 0; i < idleRight.length; i++)
@@ -63,12 +63,12 @@ public class Elephant extends Actor
         // Add your action code here.
         if (Greenfoot.isKeyDown("left"))
         {
-            move(-2);
+            move(MyWorld.elephantLeft - 1);
             facing = "left";
         }
         else if (Greenfoot.isKeyDown("right"))
         {
-            move(2);
+            move(MyWorld.level + 1);
             facing = "right";
         }
         
